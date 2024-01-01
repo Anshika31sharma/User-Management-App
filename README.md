@@ -2,7 +2,8 @@
 # User Management App  
 
 
-This React.js application allows users to manage tasks with the following functionalities: create, read, update, and delete tasks. The application ensures a user-friendly and responsive UI and utilizes Redux for state management and Saga for handling asynchronous API calls.
+This web application allows users to manage tasks effectively. Users can create new tasks, view a list of existing tasks, update task details, and delete tasks as needed. The application provides a user-friendly and responsive interface, making task management a seamless experience.
+
 
 # Table of Contents-:
 
@@ -66,7 +67,7 @@ This React.js application allows users to manage tasks with the following functi
 
 3. If you want to delete any user so  just click on the delete user button given for each user card.
 
-![Crud App](/src/Assets/todolist.png)
+
 
 
 # Authors

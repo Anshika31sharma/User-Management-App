@@ -6,33 +6,20 @@
   padding: 20px;
 }
 
-.menu {
-  display: flex;
-  align-items: start;
-  margin-bottom: 20px;
-  margin-right:30%
-}
+@media only screen and (max-width: 600px) {
+  .menu {
+    margin-right: 0;
+  }
 
-.menu button {
-  font-size: 1.5em;
-  cursor: pointer;
-  background: none;
-  border: none;
-}
+  .menu-items {
+    flex-direction: column;
+  }
 
-.menu-items {
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-}
-
-.menu-items input {
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  margin-right: 8px;
-  
+  .menu-items input,
+  .menu-items button {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 .menu-items button {
