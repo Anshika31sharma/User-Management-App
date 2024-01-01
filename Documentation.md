@@ -95,7 +95,7 @@ CSS media queries were extensively used to create a responsive layout. Testing o
 Challenge:
 
 
-Implementing frontend validation for input fields presented challenges in terms of ensuring data integrity and providing meaningful user feedback.
+Implementing frontend validation for input fields presented challenges in terms of ensuring data integrity and providing meaningful user feedback. Added dynamic states for every card.
 
 
 Resolution:

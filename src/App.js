@@ -5,12 +5,14 @@ import { addUser, deleteUser, updateUsername } from "./features/Users";
 
 function App() {
   const dispatch = useDispatch();
-  const userList = useSelector((state) => state.users.value);
+  const usersById = useSelector((state) => state.users.usersById);
 
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
   const [newUsername, setNewUsername] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const userList = Object.values(usersById);
 
   return (
     <div className="App">

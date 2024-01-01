@@ -1,25 +1,28 @@
 import { createSlice } from "@reduxjs/toolkit";
-
 import { UsersData } from "../FakeData";
+
+const initialState = {
+  usersById: UsersData.reduce((acc, user) => {
+    acc[user.id] = user;
+    return acc;
+  }, {}),
+};
 
 export const userSlice = createSlice({
   name: "users",
-  initialState: { value: UsersData },
+  initialState,
   reducers: {
     addUser: (state, action) => {
-      state.value.push(action.payload);
+      const { id, name, username } = action.payload;
+      state.usersById[id] = { id, name, username };
     },
-
     deleteUser: (state, action) => {
-      state.value = state.value.filter((user) => user.id !== action.payload.id);
+      const { id } = action.payload;
+      delete state.usersById[id];
     },
-
     updateUsername: (state, action) => {
-      state.value.forEach((user) => {
-        if (user.id === action.payload.id) {
-          user.username = action.payload.username;
-        }
-      });
+      const { id, username } = action.payload;
+      state.usersById[id].username = username;
     },
   },
 });
