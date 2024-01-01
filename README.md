@@ -17,48 +17,48 @@ This React.js application allows users to manage tasks with the following functi
 
 # Clone the repository to your local machine using the following command:
 
-*bash
-*Copy code
-*![Github repo link] (git clone git@github.com:Anshika31sharma/User-Management-App.git)
+1.bash
+2.Copy code
+3.(git clone git@github.com:Anshika31sharma/User-Management-App.git)
 
 
 # Navigate to the project directory:
 
 
-*bash
-*Copy code
-*cd User-Management-App
+1.bash
+2.Copy code
+3.cd User-Management-App
 
 
 # Install the required dependencies:
 
 
-*bash
-*Copy code
-*npm install
-*Usage
+1.bash
+2.Copy code
+3.npm install
+4.Usage
 
 
 # Start the development server:
 
 
-*bash
-*Copy code
-*yarn start
+1.bash
+2.Copy code
+3.yarn start
 
 
-# Open your browser and visit [Link] (http://localhost:3000 )to use the application.
+# Open your browser and visit  (http://localhost:3000 )to use the application.
 
 
 # Technical Details
 
 
-*Frontend Framework: React.js
-*State Management: Redux
-*Async API Calls Handling: Saga
-*Styling: Bootstrap,Css.
-*UI Components: Modals, Menus, Hamburger Menu
-*Frontend Field Validation: Implemented for user input fields.
+1Frontend Framework: React.js
+2.State Management: Redux
+3.Async API Calls Handling: Saga
+4.Styling: Bootstrap,Css.
+5.UI Components: Modals, Menus, Hamburger Menu
+6.Frontend Field Validation: Implemented for user input fields.
  
 # Working -:
 
