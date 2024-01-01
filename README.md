@@ -28,7 +28,7 @@ This React.js application allows users to manage tasks with the following functi
 
 1. bash
 2. Copy code
-3. cd User-Management-App
+3. cd Crud App
 
 
 # Install the required dependencies:
