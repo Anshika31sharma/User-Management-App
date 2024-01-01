@@ -13,13 +13,6 @@ This React.js application allows users to manage tasks with the following functi
 3. (git clone git@github.com:Anshika31sharma/User-Management-App.git)
 
 
-# Navigate to the project directory:
-
-
-1. bash
-2. Copy code
-3. cd Crud App
-
 
 # Install the required dependencies:
 
