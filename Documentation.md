@@ -49,6 +49,11 @@ This React.js application allows users to manage tasks with the following functi
 
 3. If you want to delete any user so  just click on the delete user button given for each user card.
 
+
+
+![Image](/src/Assets/todolist.png)
+
+
 # Design Choices -:
 
 1. React Js for building
@@ -101,7 +106,6 @@ Resolution:
 The use of React.js allowed for the implementation of controlled components and client-side validation. This, combined with clear error messaging, improved the overall user experience.
 
 
-![Image](/src/Assets/todolist.png)
 
 
 # Authors
