@@ -20,9 +20,7 @@ This React.js application allows users to manage tasks with the following functi
 
 1. bash
 2. Copy code
-
-
-3. [RepoLink](git clone git@github.com:Anshika31sharma/User-Management-App.git)
+3. (git clone git@github.com:Anshika31sharma/User-Management-App.git)
 
 
 # Navigate to the project directory:
@@ -50,7 +48,7 @@ This React.js application allows users to manage tasks with the following functi
 3. yarn start
 
 
-# Open your browser and visit (http://localhost:3000)to use the application.
+# Open your browser and visit (http://localhost:3000) to use the application.
 
 
 # Technical Details
