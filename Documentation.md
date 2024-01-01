@@ -51,9 +51,6 @@ This React.js application allows users to manage tasks with the following functi
 
 
 
-![Image](/src/Assets/todolist.png)
-
-
 
 # Design Choices -:
 
@@ -107,6 +104,8 @@ Resolution:
 The use of React.js allowed for the implementation of controlled components and client-side validation. This, combined with clear error messaging, improved the overall user experience.
 
 
+
+![Image](/src/Assets/todolist.png)
 
 
 # Authors
