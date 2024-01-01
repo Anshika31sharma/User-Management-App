@@ -10,9 +10,6 @@ This React.js application allows users to manage tasks with the following functi
 1. Installation
 2. Usage
 3. Technical Details
-4. Contributing
-5. License
-6. Installation
 
 
 # Clone the repository to your local machine using the following command:
