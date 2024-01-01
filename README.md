@@ -1,5 +1,5 @@
 
-# `**User Management App**`  
+# User Management App  
 
 
 This React.js application allows users to manage tasks with the following functionalities: create, read, update, and delete tasks. The application ensures a user-friendly and responsive UI and utilizes Redux for state management and Saga for handling asynchronous API calls.
@@ -17,34 +17,35 @@ This React.js application allows users to manage tasks with the following functi
 
 # Clone the repository to your local machine using the following command:
 
-1.bash
-2.Copy code
-3.(git clone git@github.com:Anshika31sharma/User-Management-App.git)
+
+1. bash
+2. Copy code
+3. (git clone git@github.com:Anshika31sharma/User-Management-App.git)
 
 
 # Navigate to the project directory:
 
 
-1.bash
-2.Copy code
-3.cd User-Management-App
+1. bash
+2. Copy code
+3. cd User-Management-App
 
 
 # Install the required dependencies:
 
 
-1.bash
-2.Copy code
-3.npm install
-4.Usage
+1. bash
+2. Copy code
+3. npm install
+4. Usage
 
 
 # Start the development server:
 
 
-1.bash
-2.Copy code
-3.yarn start
+1. bash
+2. Copy code
+3. yarn start
 
 
 # Open your browser and visit  (http://localhost:3000 )to use the application.
@@ -53,12 +54,12 @@ This React.js application allows users to manage tasks with the following functi
 # Technical Details
 
 
-1Frontend Framework: React.js
-2.State Management: Redux
-3.Async API Calls Handling: Saga
-4.Styling: Bootstrap,Css.
-5.UI Components: Modals, Menus, Hamburger Menu
-6.Frontend Field Validation: Implemented for user input fields.
+1. Frontend Framework: React.js
+2. State Management: Redux
+3. Async API Calls Handling: Saga
+4. Styling: Bootstrap,Css.
+5. UI Components: Modals, Menus, Hamburger Menu
+6. Frontend Field Validation: Implemented for user input fields.
  
 # Working -:
 
